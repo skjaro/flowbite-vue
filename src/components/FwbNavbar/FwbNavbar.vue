@@ -35,11 +35,14 @@
         <slot name="right-side" />
       </div>
     </div>
+    <slot name="mega-menu-dropdown">
+
+    </slot>
   </nav>
 </template>
 
 <script lang="ts" setup>
-import { computed, ref, useSlots } from 'vue'
+import { computed, ref, useSlots, provide } from 'vue'
 import { breakpointsTailwind, useBreakpoints, useToggle } from '@vueuse/core'
 import { useMergeClasses } from '@/composables/useMergeClasses'
 
@@ -60,6 +63,17 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+})
+
+const megaMenuVisble = ref(false)
+
+function toggleMenu() {
+  megaMenuVisble.value = !megaMenuVisble.value;
+}
+
+provide('megaMenuToggle', {
+  megaMenuVisble,
+  toggleMenu
 })
 
 const slots = useSlots()
