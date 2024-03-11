@@ -37,7 +37,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "typecheck": "vue-tsc --noEmit",
-    "preinstall": "npm i && npm run build:package"
+    "prepare": "npm run build:package"
   },
   "peerDependencies": {
     "tailwindcss": "^3",
