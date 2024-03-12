@@ -1,5 +1,5 @@
 import { type Ref } from 'vue';
-import type { InputSize } from '@/components/FwbInput/types';
+import type { InputSize } from '../../../components/FwbInput/types';
 export type UseToggleClassesProps = {
     size: Ref<InputSize>;
     color: Ref<string>;

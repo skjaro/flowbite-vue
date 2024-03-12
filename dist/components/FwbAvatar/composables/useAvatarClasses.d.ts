@@ -1,5 +1,5 @@
 import { type Ref } from 'vue';
-import type { AvatarSize, AvatarStatus, AvatarStatusPosition } from '@/components/FwbAvatar/types';
+import type { AvatarSize, AvatarStatus, AvatarStatusPosition } from '../../../components/FwbAvatar/types';
 export type UseAvatarClassesProps = {
     status: Ref<AvatarStatus>;
     bordered: Ref<boolean>;

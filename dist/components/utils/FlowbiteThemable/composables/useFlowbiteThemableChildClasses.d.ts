@@ -1,6 +1,6 @@
 import { type Ref } from 'vue';
 import type { ThemableChildrenApply } from '../types';
-import type { FlowbiteTheme } from '@/components/utils/FlowbiteThemable/types';
+import type { FlowbiteTheme } from '../../../../components/utils/FlowbiteThemable/types';
 type UseFlowbiteThemableChildReturns = {
     classes: Ref<string>;
 };

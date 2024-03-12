@@ -1,5 +1,5 @@
 import { type PropType } from 'vue';
-import type { FlowbiteTheme, ThemableChildrenApply } from '@/components/utils/FlowbiteThemable/types';
+import type { FlowbiteTheme, ThemableChildrenApply } from '../../../components/utils/FlowbiteThemable/types';
 declare const _default: __VLS_WithTemplateSlots<import("vue").DefineComponent<{
     apply: {
         type: PropType<ThemableChildrenApply[]>;

@@ -1,4 +1,4 @@
-import type { InputSize } from '@/components/FwbInput/types';
+import type { InputSize } from '../../components/FwbInput/types';
 declare const _default: import("vue").DefineComponent<{
     label: {
         type: import("vue").PropType<string>;

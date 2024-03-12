@@ -1,5 +1,5 @@
 import { type PropType } from 'vue';
-import type { SlotListenerTrigger } from '@/components/utils/FwbSlotListener/types';
+import type { SlotListenerTrigger } from '../../../components/utils/FwbSlotListener/types';
 declare const _default: import("vue").DefineComponent<{
     trigger: {
         type: PropType<SlotListenerTrigger>;

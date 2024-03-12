@@ -7,6 +7,7 @@
 </template>
 <script setup lang="ts">
 import { computed, ref, toRef, inject } from 'vue'
+import type IMegaMenu from './types'
 
-const { megaMenuVisble, toggleMenu } = inject('megaMenuToggle')
+const { megaMenuVisble, toggleMenu } = inject('megaMenuToggle') as IMegaMenu
 </script>

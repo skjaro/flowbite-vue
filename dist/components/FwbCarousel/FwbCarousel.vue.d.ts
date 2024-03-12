@@ -1,5 +1,5 @@
 import { type PropType } from 'vue';
-import type { PictureItem } from '@/components/FwbCarousel/types';
+import type { PictureItem } from '../../components/FwbCarousel/types';
 declare const _default: import("vue").DefineComponent<{
     pictures: {
         type: PropType<PictureItem[]>;
