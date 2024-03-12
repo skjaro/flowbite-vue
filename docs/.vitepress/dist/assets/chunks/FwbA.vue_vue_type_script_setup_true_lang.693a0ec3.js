@@ -1,0 +1,1 @@
+import{d as r,o,c as a,r as s,n as t}from"./framework.3f630664.js";const n=["href"],i=r({__name:"FwbA",props:{href:{default:""},color:{default:"text-primary-600 dark:text-primary-500"}},setup(l){return(e,c)=>(o(),a("a",{href:e.href,class:t([e.color,"inline-flex items-center hover:underline"])},[s(e.$slots,"default")],10,n))}});export{i as _};

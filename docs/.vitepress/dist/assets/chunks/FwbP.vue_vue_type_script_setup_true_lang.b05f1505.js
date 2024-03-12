@@ -1,0 +1,1 @@
+import{u as o}from"./useMergeClasses.5cec3a4e.js";import{d as l,g as n,o as r,c,r as m,n as p}from"./framework.3f630664.js";const u="mb-3 last:mb-0 text-gray-900 dark:text-white leading-normal",_=l({__name:"FwbP",props:{class:{default:""}},setup(s){const e=s,a=n(()=>o([u,e.class]));return(t,d)=>(r(),c("p",{class:p(a.value)},[m(t.$slots,"default")],2))}});export{_};

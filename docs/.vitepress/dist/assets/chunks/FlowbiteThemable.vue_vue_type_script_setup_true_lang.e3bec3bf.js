@@ -1,0 +1,1 @@
+import{F as t}from"./useFlowbiteThemable.013ea29e.js";import{d as r,U as s,a2 as a,r as p}from"./framework.3f630664.js";const l=r({__name:"FlowbiteThemable",props:{theme:{default:"blue"}},setup(e){return s(t,a(e,"theme")),(o,n)=>p(o.$slots,"default")}});export{l as _};
