@@ -4874,9 +4874,9 @@ const yd = {
   __name: "FwbMegaMenu",
   setup(e) {
     const { megaMenuVisble: t, toggleMenu: r } = Q("megaMenuToggle");
-    return (s, o) => (u(), g("div", {
+    return (s, o) => (u(), g("li", {
       id: "mega-menu-full-cta-dropdown-button",
-      class: "flex md:py-2 pr-4 pl-3 gap-2 items-center w-full font-medium text-gray-700 dark:text-gray-400 md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0dark:text-gray-400 md:dark:hover:white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
+      class: "flex pr-4 pl-3 gap-2 items-center w-full font-medium text-gray-700 dark:text-gray-400 md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0dark:text-gray-400 md:dark:hover:white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
       onClick: o[0] || (o[0] = //@ts-ignore
       (...n) => y(r) && y(r)(...n))
     }, [
