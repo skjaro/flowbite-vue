@@ -1,5 +1,5 @@
 <template>
-  <div id="mega-menu-full-cta-dropdown-button" class="flex gap-2 items-center justify-between w-full font-medium text-gray-700 dark:text-gray-400 border-b border-gray-100 md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0dark:text-gray-400 md:dark:hover:white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" @click="toggleMenu">
+  <div id="mega-menu-full-cta-dropdown-button" class="flex py-2 pr-4 pl-3  gap-2 items-center w-full font-medium text-gray-700 dark:text-gray-400 md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0dark:text-gray-400 md:dark:hover:white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" @click="toggleMenu">
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="dark:fill-gray-400 hover:dark:fill-white">
       <title>settings</title>
       <path
